@@ -6,7 +6,6 @@
 #   # docker run for mainternant /update.
 #
 FROM  hypriot/rpi-busybox-httpd
-LABEL maintainer="Dr. The Anh Vuong: vuongtheanh@gmail.com"
 LABEL WEB="/www"
 WORKDIR /www
 # preset your-index.html or copy other html to web-server entry-point

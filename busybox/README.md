@@ -1,8 +1,6 @@
 [DESCRIPTION]
 Create a  hypriot/rpi-bussybox-httpd container
 
-AUTHOR:		  The Anh Vuong <vuongtheanh@gmail.com>
-
 [USAGES]
 
 Example for 
@@ -20,6 +18,9 @@ http://ip-of-schwarm-RPI:4000
 To change or add pages:
 
 docker cp your-page.html CONTAINER_ID:/www
+
+[CONTAINER_IMAGE](https://hub.docker.com/r/tavuong/hypriot-rpi-busybox/)
+
 
 Have fun !
 
