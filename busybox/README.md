@@ -14,7 +14,7 @@ $ docker service create --replicas 4 -p 4000:80 --name my-service tavuong/hyprio
 
 You will get index,hml page after service start. Check it!
 
-http://<ip of schwarm>:4000
+http://ip-of-schwarm-RPI:4000
 
 
 To change or add pages:
