@@ -23,7 +23,7 @@ You will get index.hml page after service start. Check it!
 
 http://ip-of-schwarm-RPI:4000
 
-update html page
+Update html-pages
 ----------------
 $ docker cp your-page.html CONTAINER_ID:/www
 
