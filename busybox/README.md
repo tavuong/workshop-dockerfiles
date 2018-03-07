@@ -1,7 +1,10 @@
 DESCRIPTION
 ===========
-Create a  hypriot/rpi-bussybox-httpd container
-
+- A container from image [hypriot/rpi-bussybox-httpd](https://hub.docker.com/r/hypriot/rpi-busybox-httpd/) 
+- Extend with preset index.html (s.usage) 
+- Mini web server 
+- Tested on a rpi-swarm
+- Using for learning / workshop 
 USAGES
 ======
 Example for 
@@ -11,11 +14,11 @@ Example for
 
 Build
 -----
-$ docker build -t yourimage .
+$ docker build -t tavuong/hypriot-rpi-busybox:0.2 (or your image-name) .
 
 Create and distribute my-service 
 ---------------------------------
-$ docker service create --replicas 4 -p 4000:80 --name my-service tavuong/hypriot-rpi-busybox:0.1
+$ docker service create --replicas 4 -p 4000:80 --name my-service tavuong/hypriot-rpi-busybox:0.2
 
 Check
 -----
