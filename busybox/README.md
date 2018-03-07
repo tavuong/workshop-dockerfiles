@@ -1,8 +1,9 @@
-[DESCRIPTION]
+DESCRIPTION
+===========
 Create a  hypriot/rpi-bussybox-httpd container
 
-[USAGES]
-
+USAGES
+======
 Example for 
 - Swarm of 4 RPI
 - output port: 4000
@@ -23,5 +24,6 @@ docker cp your-page.html CONTAINER_ID:/www
 
 
 Have fun !
-
+==========
 The Anh Vuong
+-------------
