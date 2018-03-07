@@ -19,7 +19,7 @@ Some of these live images on dockerhub under [tavuong](https://hub.docker.com/u/
 
 Author 
 =======
-[The Anh Vuong](https://vuongblog.wordpess.com)
+[The Anh Vuong](https://sourceforge.net/projects/vuong-dcp/)
 
 MIT- Licence
 ------------
