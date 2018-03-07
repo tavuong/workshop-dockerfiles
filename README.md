@@ -9,7 +9,7 @@ pull request it!
 
 Dockerfiles-List
 ================
-* [alpine] (https://github.com/tavuong/workshop-dockerfiles/tree/master/alpine): linux-alpine
+[alpine](https://github.com/tavuong/workshop-dockerfiles/tree/master/alpine "linux-alpine")
 
 Some of these live images on dockerhub under [tavuong](https://hub.docker.com/u/tavuong/).
 
