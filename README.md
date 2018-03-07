@@ -9,9 +9,17 @@ pull request it!
 
 Dockerfiles-List
 ================
-[alpine](https://github.com/tavuong/workshop-dockerfiles/tree/master/alpine "linux-alpine")
+* [alpine](https://github.com/tavuong/workshop-dockerfiles/tree/master/alpine "linux-alpine") : small linux 
+* [busybox](https://github.com/tavuong/workshop-dockerfiles/tree/master/busybox "busybox") : small web server  
+* [get-started](https://github.com/tavuong/workshop-dockerfiles/tree/master/get-started "hello-world") : python Hello world   
 
+Docker-Images
+==============
 Some of these live images on dockerhub under [tavuong](https://hub.docker.com/u/tavuong/).
 
-[Vuongblog](https://vuongblog.wordpess.com)
+Author 
+=======
+[The Anh Vuong](https://vuongblog.wordpess.com)
 
+MIT- Licence
+------------
