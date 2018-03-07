@@ -16,11 +16,11 @@ Example for
 
 Build
 -----
-$ docker build -t tavuong/hypriot-rpi-busybox:0.2 (or your image-name) .
+$ docker build -t tavuong/hypriot-rpi-busybox (or your image-name) .
 
 Create and distribute my-service 
 ---------------------------------
-$ docker service create --replicas 4 -p 4000:80 --name my-service tavuong/hypriot-rpi-busybox:0.2
+$ docker service create --replicas 4 -p 4000:80 --name my-service tavuong/hypriot-rpi-busybox
 
 Check
 -----
@@ -34,7 +34,7 @@ $ docker cp your-page.html CONTAINER_ID:/www
 
 [Container image](https://hub.docker.com/r/tavuong/hypriot-rpi-busybox/)
 -----------------
-$ docker pull tavuong/hypriot-rpi-busybox:0.2
+$ docker pull tavuong/hypriot-rpi-busybox
 
 
 Have fun !
