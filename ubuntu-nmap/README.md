@@ -16,9 +16,11 @@ USAGES: NETWORK SCANNER
 
  IP_NET=Base-IP, e.g. IP_NET=172.24.1.0
 
-* Mount Voulum to /tmp of Container
+* Mount Voulume to /tmp of Container
+$ docker run -it -v absoute-directory:/tmp/ tavuong/ubuntu-nmap
 
-$ docker run -it -v <absoute directory>:/tmp/ tavuong/ubuntu-nmap
+For example 
+$ docker run -it -v /home/pi/workshop-dockerfiles/ubuntu-nmap/:/tmp/ tavuong/ubuntu-nmap
 
 * alle IP of devices connet to IP_NET will be listed
 
