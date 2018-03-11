@@ -14,7 +14,7 @@ USAGES: NETWORK SCANNER
 -----------------------
 * Set your IP-Network in file network_scan.sh
 
- IP_NET=Base-IP, e.g. IP_NET=172.24.1.0
+  IP_NET=Base-IP, e.g. IP_NET=172.24.1.0
 
 * Mount Voulume to /tmp of Container
 $ docker run -it -v absoute-directory:/tmp/ tavuong/ubuntu-nmap
