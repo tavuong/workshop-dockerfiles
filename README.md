@@ -12,7 +12,7 @@ Dockerfiles-List
 * [alpine](https://github.com/tavuong/workshop-dockerfiles/tree/master/alpine "linux-alpine") : small linux 
 * [busybox](https://github.com/tavuong/workshop-dockerfiles/tree/master/busybox "busybox") : small web server  
 * [get-started](https://github.com/tavuong/workshop-dockerfiles/tree/master/get-started "hello-world") : python Hello world
-* [ubuntu-namp](https://github.com/tavuong/workshop-dockerfiles/tree/master/ubuntu-nmap) : Network Scanner
+* [ubuntu-nmap](https://github.com/tavuong/workshop-dockerfiles/tree/master/ubuntu-nmap) : Network Scanner
 
 Docker-Images
 ==============
