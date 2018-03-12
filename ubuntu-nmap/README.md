@@ -1,30 +1,24 @@
 DESCRIPTION
 ===========
-- A container from [ubuntu](https://hub.docker.com/_/ubuntu/)
-- Network Scanner [NMAP](https://nmap.org/book/inst-linux.html#inst-debian)
+- Network Scanner NMAP (https://nmap.org/book/inst-linux.html#inst-debian)
+- container is based on ubuntu (https://hub.docker.com/_/ubuntu/)
 - Tested on a raspberry
 - Using for learning / workshop 
 
 
 Build
 -----
+- download all files in git in a directory
+- Container build
+
 $ docker build -t tavuong/ubuntu-nmap (or -t your-image-name) .
 
 USAGES: NETWORK SCANNER
 -----------------------
-* Set your IP-Network in file network_scan.sh
+* Set internal ENV IP_NET= your searching IP-Network  and start
 
-  IP_NET=Base-IP, e.g. IP_NET=172.24.1.0
+$ sudo IP_NET='172.24.8.0/20' docker run -it -e IP_NET tavuong/ubuntu-nmap
 
-* Mount Voulume to /tmp of Container
-
-$ docker run -it -v absoute-directory:/tmp/ tavuong/ubuntu-nmap
-
-For example 
-
-$ docker run -it -v /home/pi/workshop-dockerfiles/ubuntu-nmap/:/tmp/ tavuong/ubuntu-nmap
-
-* alle IP of devices connet to IP_NET will be listed
 
 Have fun !
 ==========
